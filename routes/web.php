@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','BodyController@index');
 
 Route::get('body','BodyController@index');
 
