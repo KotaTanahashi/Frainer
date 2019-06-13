@@ -13,7 +13,6 @@
 
 Route::get('/','BodyController@index');
 
-
 Route::get('body','BodyController@index');
 
 
