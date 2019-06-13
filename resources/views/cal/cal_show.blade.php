@@ -68,9 +68,9 @@
       <p class="pb-1" style="border-bottom: solid 1px;">脂質：{{$nutrition['fat']}}</p>
     </div>
     <div class="col-12 mx-lg-auto px-lg-5 mt-3 mb-1" style="color: #666666;">
-      <p　style="font-family: 'Kosugi', sans-serif;">&nbsp上の指標は、厚生労働省が発表している食事摂取基準表より作成いたしました。そのため、ダイエットをする場合やトレーニング行う人は上の表とは違うアプローチが必要になります。</p><p　style="font-family: 'Kosugi', sans-serif;">&nbsp<strong>ダイエット向け、バルクアップ向け</strong>（筋肉をつけること）のための配分比率と食事プランをそれぞれ用意してあります。下のボタンから今すぐ行動を始めましょう。</p>
+      <p style="font-family:">&nbsp上の指標は、厚生労働省が発表している食事摂取基準表より作成いたしました。そのため、ダイエットをする場合やトレーニング行う人は上の表とは違うアプローチが必要になります。</p><p style="font-family:;">&nbsp<strong>ダイエット向け、バルクアップ向け</strong>（筋肉をつけること）のための配分比率と食事プランをそれぞれ用意してあります。下のボタンから今すぐ行動を始めましょう。</p>
     </div>
-    <div class="col-lg-9 offset-lg-2 mt-2 ml-3">
+    <div class="col-lg-9 offset-lg-2 mt-2 ml-3 ml-sm-5">
       <a class="btn btn btn-outline-secondary m-1" href="/diet">ダイエット向け</a>
       <a class="btn btn btn-outline-secondary m-1" href="/bulk">バルクアップ向け</a>
     </div>

@@ -17,6 +17,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     @yield('meta')
 
     <!--bootstrap css-->
@@ -45,6 +46,10 @@
     <style media="screen">
         body {
             font-size: 10.5pt;
+
+        }
+        p, ul li {
+          line-height: 2.2;
         }
     </style>
 
@@ -91,9 +96,16 @@
     <div class="container-fluid bg-light px-3">
         @yield('content')
     </div>
-    <p id="page-top"><a href="#wrap"><i class="fas fa-chevron-up"></i></a></p>
+
 
     <div class="container-fluid">
+      <div class="row">
+        <div class="col text-center">
+          <p><a class="btn btn btn-outline-secondary m-1" href="https://twitter.com/intent/tweet?url=https://frainers.com" target="_blank" style="border-radius: 10px;"><i class="fab fa-twitter"></i>&nbsp&nbspTweet</a>
+            <a class="btn btn btn-outline-secondary m-1" href="https://www.facebook.com/sharer.php?src=bm&u=https://frainers.com" target="_blank" style="border-radius: 10px;"><i class="fab fa-facebook-f"></i>&nbsp&nbspShare</a>
+            <a class="btn btn btn-outline-secondary m-1" href="https://social-plugins.line.me/lineit/share?url=https://frainers.com" target="_blank" style="border-radius: 10px;"><i class="fab fa-line"></i>&nbsp&nbspLINE</a>
+        </div>
+      </div>
         <div class="row bg-light">
             <div class="col pt-2 mb-n2">
                 <div class="text-center">
@@ -129,6 +141,7 @@
                 <p class="text-center mx-5" style="font-size: 8pt;">© Copyright 2019 &nbsp&nbsp<a class="text-light" href="https://fitnesshub.jp/">FITNESS HUB｜ 筋トレ・ダイエット・食事に関する正しい情報を提供する.</a></p>
             </div>
         </div>
+        <p id="page-top"><a href="#wrap"><i class="fas fa-chevron-up"></i></a></p>
     </div>
 
 

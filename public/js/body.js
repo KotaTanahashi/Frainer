@@ -25,6 +25,23 @@ $(function() {
             topBtn.fadeOut();
         }
     });
+    // フッターで止める
+    $(window).scroll(function () {
+        var height = $(document).height(); //ドキュメントの高さ
+        var position = $(window).height() + $(window).scrollTop(); //ページトップから現在地までの高さ
+        var footer = $("footer").height(); //フッターの高さ
+        if ( height - position  < footer ) {
+            topBtn.css({
+              position : "absolute",
+              top : -100
+            });
+        } else {
+            topBtn.css({
+              position : "fixed",
+              top: "auto"
+            });
+        }
+    });
     //スクロールしてトップ
     topBtn.click(function () {
         $('body,html').animate({
