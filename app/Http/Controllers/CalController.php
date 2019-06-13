@@ -167,12 +167,12 @@ class CalController extends Controller
 // Nutritions （栄養素） ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     if (is_numeric($day) && is_numeric($base))
     {
-      $protein_min = round($day * 0.13 / 4,);
-      $protein_max = round($day * 0.2 / 4,);
-      $fat_mini = round($day * 0.2 / 9,);
-      $fat_max = round($day * 0.3 / 9,);
-      $carb_min = round($day * 0.5 / 4, );
-      $carb_max = round($day * 0.65 / 4, );
+      $protein_min = round($day * 0.13 / 4, 0);
+      $protein_max = round($day * 0.2 / 4, 0);
+      $fat_mini = round($day * 0.2 / 9, 0);
+      $fat_max = round($day * 0.3 / 9, 0);
+      $carb_min = round($day * 0.5 / 4, 0);
+      $carb_max = round($day * 0.65 / 4, 0);
 
       $nutrition = [
         'protein' => $protein_min . ' - ' . $protein_max . ' g',

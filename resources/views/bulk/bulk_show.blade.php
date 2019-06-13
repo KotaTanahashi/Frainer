@@ -265,14 +265,14 @@
               </tr>
             </table>
 
-            <p>&nbsp&nbspトレーニング中にはECAやBCAAなどをマルトデキストリン（糖質）と共に摂取しましょう。糖質は筋肥大必ずしも必要ではないとも言われますが、バルクアップ・増量を目指す際には十分に取っておくことをおすすめします。</p>
+            <p>&nbsp&nbspトレーニング中にはEAAやBCAAなどをマルトデキストリン（糖質）と共に摂取しましょう。糖質は筋肥大必ずしも必要ではないとも言われますが、バルクアップ・増量を目指す際には十分に取っておくことをおすすめします。</p>
             <p>&nbsp&nbspトレーニング後にはホエイプロテインを摂取します。マルトデキストリンを一気に摂取すると胃もたれする方は、トレーニング後に半分の量をプロテインと一緒に摂取しても良いでしょう。</p>
 
             <p>プロテインは高品質かつ低価格のゴールドスタンダードをおすすめします。</p>
             <div class="clearfix">
               <div class="float-right">
-                <a class="btn btn btn-outline-secondary m-1" href="https://a.r10.to/hbOPaj" target="_blank">楽天で見る</a>
-                <a class="btn btn btn-outline-secondary m-1" href="https://amzn.to/2YZfXtm" target="_blank">Amazonで見る</a>
+                <a class="btn btn btn-outline-secondary m-1" href="https://a.r10.to/hfk9iW" target="_blank">楽天で見る</a>
+                <a class="btn btn btn-outline-secondary m-1" href="https://amzn.to/2WHv0uT" target="_blank">Amazonで見る</a>
               </div>
             </div>
 

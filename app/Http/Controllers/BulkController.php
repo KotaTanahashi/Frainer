@@ -316,7 +316,7 @@ class BulkController extends Controller
       'lunch_whiterice', 'lunch_chicken', 'lunch_sum_fat',
 // Dinner
       'dinner_protein', 'dinner_fat', 'dinner_carb',
-      'dinner_whiterice', 'dinner_tuna' , 'dinner_sum_fat',
+      'dinner_whiterice', 'dinner_tuna' , 'dinner_sum_fat'
 
       //'' => , '' => , '' => , '' => , '' => , '' => ,
     );

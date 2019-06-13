@@ -72,7 +72,7 @@
     <div class="col-12 text-center my-5 py-3">
         <h2><a href="#content">ー Content ー</a></h2>
     </div>
-    <div class="col-lg-4 col-md-6 text-center mb-5 p-1 px-4" style="line-height: 1.8;">
+    <div class="col-lg-4 col-md-6 text-center mb-5 p-1 px-3" style="line-height: 1.8;">
         <div class="text-secondary">
             <a class="" href="/cal" style="width: 150px;">
                 <img class="d-block mx-auto mb-3" src="/img/cal_icon_1.png" alt="計算機アイコン" style="width: 100px;">
@@ -81,7 +81,7 @@
             </a>
         </div>
     </div>
-    <div class="col-lg-4 col-md-6 text-center mb-5 p-1 px-4" style="line-height: 1.8;">
+    <div class="col-lg-4 col-md-6 text-center mb-5 p-1 px-3" style="line-height: 1.8;">
         <div class="text-secondary">
             <a class="" href="/diet" style="width: 150px;">
                 <img class="d-block mx-auto mb-4" src="/img/diet_icon_2.png" alt="体重計アイコン" style="width: 90px;">
@@ -90,9 +90,9 @@
             </a>
         </div>
     </div>
-    <div class="col-lg-4 col-md-6 text-center mb-5 p-1 px-4" style="line-height: 1.8;">
+    <div class="col-lg-4 col-md-6 text-center mb-5 p-1 px-3" style="line-height: 1.8;">
         <div class="text-secondary">
-            <a class="" href="/diet" style="width: 150px;">
+            <a class="" href="/bulk" style="width: 150px;">
                 <img class="d-block mx-auto mb-4" src="/img/bulk_icon_1.png" alt="体重計アイコン" style="width: 90px;">
                 <h3 class="m-3">バルクアップ・増量<br>食事プログラム</h3>
                 <p class="px-3 mt-4">バルクアップ・増量向けの食事プログラムを作成します。</p>

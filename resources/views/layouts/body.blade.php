@@ -2,6 +2,19 @@
 <html lang="ja">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141917428-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-141917428-1');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     @yield('meta')
@@ -30,10 +43,9 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
 
     <style media="screen">
-      body {
-        font-size: 10.5pt;
-      }
-
+        body {
+            font-size: 10.5pt;
+        }
     </style>
 
 
@@ -83,12 +95,12 @@
 
     <div class="container-fluid">
         <div class="row bg-light">
-          <div class="col pt-2 mb-n2">
-            <div class="text-center">
-              <p><a class="mx-2" style="font-size: 18pt;" href="https://twitter.com/fitnesshubjp"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" style="font-size: 18pt;" href="https://www.instagram.com/fitnesshub.jp/"><i class="fab fa-instagram"></i></a></p>
+            <div class="col pt-2 mb-n2">
+                <div class="text-center">
+                    <p><a class="mx-2" style="font-size: 18pt;" href="https://twitter.com/fitnesshubjp"><i class="fab fa-twitter"></i></a>
+                        <a class="mx-2" style="font-size: 18pt;" href="https://www.instagram.com/fitnesshub.jp/"><i class="fab fa-instagram"></i></a></p>
+                </div>
             </div>
-          </div>
         </div>
         <div class="row " style="background-color: #181818;">
             <div class="col-lg-2">

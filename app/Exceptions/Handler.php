@@ -46,11 +46,11 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
-        if ($e instanceof \Illuminate\Session\TokenMismatchException) {
-
-              return redirect('/body');
-
-          }
+        // if ($e instanceof \Illuminate\Session\TokenMismatchException) {
+        //
+        //       return redirect('/body');
+        //
+        //   }
 
         return parent::render($request, $exception);
     }
